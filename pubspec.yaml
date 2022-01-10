@@ -1,0 +1,167 @@
+name: smart_baby
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.3
+  flutter_tts: ^3.3.3
+  flutter_colorpicker: ^1.0.3 
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/ani_anvi_watching.jpg
+    - assets/images/ani_anvi_playing.jpg
+    - assets/images/ani_anvi.jpg
+    - assets/images/ani.jpg
+    - assets/images/ic_launcher.png
+
+    - assets/images/abc_banner.png
+    - assets/images/numbers_banner.png
+    - assets/images/colors_banner.png
+    - assets/images/fruits_banner.png
+    - assets/images/vegetables_banner.png
+    - assets/images/weekdays_banner.png
+    - assets/images/shapes_banner.png
+    - assets/images/animal_banner.png
+    - assets/images/weather_banner.png
+    - assets/images/map_banner.png
+    - assets/images/planets_banner.png
+    - assets/images/paint_banner.png
+    
+
+    - assets/images/fruits/apple.png
+    - assets/images/fruits/banana.png
+    - assets/images/fruits/chikoo.png
+    - assets/images/fruits/grapes.png
+    - assets/images/fruits/mango.png
+    - assets/images/fruits/orange.png
+    - assets/images/fruits/pineapple.png
+    - assets/images/fruits/strawberry.png
+    - assets/images/fruits/watermelon.png
+    - assets/images/fruits/muskmelon.png
+    - assets/images/fruits/raspberry.png
+    - assets/images/fruits/jamun.png
+
+    - assets/images/vegetable/bottolegourd.png
+    - assets/images/vegetable/brinjal.png
+    - assets/images/vegetable/cabbage.png
+    - assets/images/vegetable/cauliflower.png
+    - assets/images/vegetable/chilies.png
+    - assets/images/vegetable/cucumber.png
+    - assets/images/vegetable/onion.png
+    - assets/images/vegetable/peas.png
+    - assets/images/vegetable/potato.png
+    - assets/images/vegetable/radish.png
+    - assets/images/vegetable/tomato.png
+    - assets/images/vegetable/turnip.png
+
+    - assets/images/weekday/sunday.png
+    - assets/images/weekday/monday.png
+    - assets/images/weekday/tuesday.png
+    - assets/images/weekday/wednesday.png
+    - assets/images/weekday/thursday.png
+    - assets/images/weekday/friday.png
+    - assets/images/weekday/saturday.png
+
+    - assets/images/shapes/circle.png
+    - assets/images/shapes/heart.png
+    - assets/images/shapes/hexagonal.png
+    - assets/images/shapes/oval.png
+    - assets/images/shapes/rectangle.png
+    - assets/images/shapes/rhombus.png
+    - assets/images/shapes/square.png
+    - assets/images/shapes/star.png
+    - assets/images/shapes/triangle.png    
+    - assets/images/shapes/cube.png
+    - assets/images/shapes/cylinder.png
+    - assets/images/shapes/daimond.png   
+
+    - assets/images/weather/cloudy.png
+    - assets/images/weather/cold.png
+    - assets/images/weather/hot.png
+    - assets/images/weather/lightining.png
+    - assets/images/weather/rainy.png
+    - assets/images/weather/snowy.png
+    - assets/images/weather/stormy.png
+    - assets/images/weather/sunny.png
+    - assets/images/weather/windy.png   
+
+    - assets/images/animal/elephant.png
+    - assets/images/animal/giraffe.png
+    - assets/images/animal/hippopotamus.png
+    - assets/images/animal/horse.png
+    - assets/images/animal/kangaroo.png
+    - assets/images/animal/lion.png
+    - assets/images/animal/tiger.png
+    - assets/images/animal/yak.png
+    - assets/images/animal/zebra.png   
+
+    - assets/images/map/india.png
+    - assets/images/map/madhya pradesh.png
+    - assets/images/map/continents.png
+    - assets/images/map/world map.png
+
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
