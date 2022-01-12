@@ -23,7 +23,11 @@ It has great paint functionality where kid can write anything they want and then
 
 Landing screen:
 
+![1641995885635](https://user-images.githubusercontent.com/27567403/149156349-53f64e48-daee-468e-9c67-573e1422e3f7.jpg)
+
 Base Screen-with all learning topics tiles:
+![1641995885623](https://user-images.githubusercontent.com/27567403/149156800-b3474a52-81af-49c7-aec5-a7783f79b553.jpg)
+
 
 Alphabet learning screen:
 ![1641995885579](https://user-images.githubusercontent.com/27567403/149155991-5626d093-406f-4c75-a9ff-72dcbc644349.jpg)
